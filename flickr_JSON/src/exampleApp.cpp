@@ -25,6 +25,7 @@ void exampleApp::setup()
 	}
     
     font.loadFont("pixelated.ttf", 20, true, true, true);
+    // Change blockImage to 1 for precise image
     blockImageX = 5;
     blockImageY = 5;
 	

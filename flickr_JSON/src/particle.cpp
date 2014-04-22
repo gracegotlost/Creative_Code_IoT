@@ -133,5 +133,7 @@ void particle::draw(){
     //ofCircle(pos.x, pos.y, 3);
     ofSetColor(rectColor);
     ofRect(pos.x + pos.x/blockImage.x*2, pos.y + pos.y/blockImage.y*2 + (ofGetWindowHeight() - (imageHeight + imageHeight/2.5))/2, blockImage.x, blockImage.y);
+    // Precise image draw
+    //ofRect(pos.x, pos.y + (ofGetWindowHeight() - (imageHeight)/2, blockImage.x, blockImage.y);
 }
 
