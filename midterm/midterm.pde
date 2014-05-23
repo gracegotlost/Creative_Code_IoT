@@ -52,7 +52,7 @@ int currentShape = int(random(4));
 int currentZ = 0;
 PVector velocity = new PVector();
 PVector standerd = new PVector(1.0, 0.0);
-final int k = 10;
+final int k = 6;
 
 //game variables
 boolean gameStart = false;
@@ -205,7 +205,7 @@ void draw() {
     textFont(myFont, 72);
     textAlign(CENTER, BOTTOM);
     fill(255);
-    if (currentLevel == 1) text("2D CRASH", width/2, height/2);
+    if (currentLevel == 1) text("M.A.T.H", width/2, height/2);
     if (currentLevel == 2) text("Level 2", width/2, height/2);
     textFont(myFont, 48);
     if (textCount < 30 && textFlash) {
