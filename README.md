@@ -1,1 +1,3 @@
-<h>This is the main folder for Spring 2014 Creative Code IoT with Joe.</h>
+# Creative Code & IoT Experiment
+
+### This repo includes code sample of my projects using Processing, Kinect, and Twitter&Flickr API.
